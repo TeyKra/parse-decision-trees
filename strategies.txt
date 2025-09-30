@@ -1,0 +1,16 @@
+device_type=pc & os_family=5 & browser=8 & language=2 : 0.000559453
+device_type=pc & os_family=5 & browser=8 & language!=2 : 0.000594593
+device_type=pc & os_family=5 & browser!=8 & size=300x600 : 0.000597397
+device_type=pc & os_family=5 & browser!=8 & size!=300x600 : 0.00063461
+device_type=pc & os_family!=5 & browser=8 : 0.000625534
+device_type=pc & os_family!=5 & browser=5 : 0.000625534
+device_type=pc & os_family!=5 & browser!=8 & browser!=5 & position=2 : 0.00066727
+device_type=pc & os_family!=5 & browser!=8 & browser!=5 & position!=2 : 0.000708484
+browser=7 & os_family=5 & size=300x600 : 0.000597397
+browser=7 & os_family=5 & size!=300x600 : 0.00063461
+browser=7 & os_family!=5 & position=2 : 0.00066727
+browser=7 & os_family!=5 & position!=2 : 0.000708484
+device_type!=pc & browser=8 : 0.000881108
+device_type!=pc & browser!=7 & browser!=8 & os_family=5 : 0.000842268
+device_type!=pc & browser!=7 & browser!=8 & os_family!=5 & region=FR:A5 : 0.000939982
+device_type!=pc & browser!=7 & browser!=8 & os_family!=5 & region!=FR:A5 : 0.000999001
